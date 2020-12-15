@@ -2,7 +2,7 @@
 // @name         BetterChat
 // @description  Improved chat bubbles
 // @author       SArpnt
-// @version      1.1.0
+// @version      1.1.1
 // @namespace    https://boxcrittersmods.ga/authors/sarpnt/
 // @homepage     https://boxcrittersmods.ga/mods/betterchat/
 // @updateURL    https://github.com/SArpnt/BetterChat/raw/master/script.user.js
@@ -11,12 +11,7 @@
 // @icon         https://github.com/SArpnt/betterchat/raw/master/icon16.png
 // @icon64       https://github.com/SArpnt/betterchat/raw/master/icon64.png
 // @run-at       document-start
-// @match        https://boxcritters.com/play/
-// @match        https://boxcritters.com/play/?*
-// @match        https://boxcritters.com/play/#*
-// @match        https://boxcritters.com/play/index.html
-// @match        https://boxcritters.com/play/index.html?*
-// @match        https://boxcritters.com/play/index.html#*
+// @include      /^https:\/\/boxcritters\.com\/play\/(index\.html)?([\?#].*)?$/
 // @require      https://github.com/SArpnt/joinFunction/raw/master/script.js
 // @require      https://github.com/SArpnt/EventHandler/raw/master/script.js
 // @require      https://github.com/SArpnt/cardboard/raw/master/script.user.js
